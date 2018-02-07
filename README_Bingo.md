@@ -1,4 +1,4 @@
-# URI_Codes
+# URI_Codes - 1136
 Exercicios do site URI
 
 Albert, Charles and Mary invented a new version of the classical game Bingo. In traditional Bingo the game is presided over by a non-player known as the caller. In the beginning of the game each player is given a card containing a unique combination of numbers from 0 to N arranged in columns and rows. The caller has a bag containing N+1 balls, numbered from 0 to N. On each turn, the caller randomly selects a ball from the bag, announces the number of the drawn ball to the players, and sets the ball aside so that it cannot be selected again. Each player searches his/her card for the called number and marks it if he/she finds it. The first player who marks a complete pre-announced pattern on the card (for example, a full horizontal line) wins a prize.
