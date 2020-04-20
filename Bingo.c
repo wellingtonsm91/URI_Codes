@@ -16,7 +16,7 @@ For each test case, print a single line containing a single uppercase ‘Y’ if
 
 #include "stdio.h"
 
-//funçao que retorna 1 se encontrar todas as diferença absoluta
+//funçao que retorna 1 se encontrar todas as diferenças absolutas
 int diferenca(int *remainp, int Bp, int difp,int faltamp)
 {
 	int i,j,h;
@@ -46,7 +46,6 @@ int main() {
  int remain[100];
 
 for(;;){
-	//INICIO:
  	// total e ramanescentes
  	scanf("%d %d",&N,&B);	// total e ramanescentes
 	  if ((N==0) && (B==0)){
@@ -55,21 +54,8 @@ for(;;){
 
  	for (i=0;i<B;i++){
  		scanf("%d",&remain[i]);
- 		//if (remain[i]<N){
- 			//menor++;
  		}
- 		//if (remain[i]!=0){
- 			//zero++;
- 		//}
- 	//}
- 	//if (zero==B){				//se satisfeito, não há diferencas suficientes
- 		//printf("N");
- 		//printf("\n");
- 		//goto INICIO;
- 	//}
- 	//só entra se tiver zero ou N na sequencia
 
- 	//ver quais valores estão faltando na sequencia dada
 
 	for (i=0;i<=N;i++){						//se considerar 0 muda de 1 pra 0
 		for(j=0;j<B;j++){
@@ -83,11 +69,6 @@ for(;;){
 		}
 		a= 0;
  	}
-
-	//imprimir os que faltam8
-	//for(j=0;j<faltam;j++){
-		//printf("missing[%d] = %d\n",j,missing[j]);
-	//}
 	//comparar com as diferencas
 	for(i=0;i<faltam;i++){
 		dif = missing[i];
